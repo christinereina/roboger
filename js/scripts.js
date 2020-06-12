@@ -38,6 +38,7 @@ $(document).ready(function() {
     const noErrors = handleErrors(userInput);  
     const robotOutput = robot(userInput);
     console.log(robotOutput);
+    $(".results").text(robotOutput);
 
   });
 });
