@@ -9,7 +9,7 @@
 
 ## Setup/Installation Requirements
 
-* Clone the project from its GitHub repository.
+* Clone the project from its GitHub repository (https://github.com/christinereina/roboger.git).
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
 * You can view this project live on GitHub Pages at this link: .
