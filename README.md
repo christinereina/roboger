@@ -18,6 +18,7 @@
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
+| User enters letters or non numbers | "ZHdk!" | "Sorry I can only talk in numbers. Try again." |
 | User enters "1" and digits are replaced (all digits) with "Hello!" | 1 | Hello! |
 | User enters "2" and digits are replaced (all digits) with "Boop!" |  2 | Boop!  |
 | User enters "3" and digits are replaced (all digits) with "Won't you be my neighbor?" |  3 | Won't you be my neighbor?  |
