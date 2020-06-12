@@ -39,6 +39,8 @@ $(document).ready(function() {
     const robotOutput = robot(userInput);
     console.log(robotOutput);
     $(".results").text(robotOutput);
-
+  });
+$('#button').click(function(){
+  location.reload();
   });
 });
