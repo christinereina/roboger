@@ -1,4 +1,4 @@
-# _Mr. Roboger's Neighborhood_
+# _[Mr. Roboger's Neighborhood](https://christinereina.github.io/roboger/)_
 
 #### _Epicodus::Week Three::Arrays & Looping Independent Project, 6/12/2020_
 
@@ -9,10 +9,10 @@
 
 ## Setup/Installation Requirements
 
-* Clone the project from its GitHub repository (https://github.com/christinereina/roboger.git).
+* Clone the project from its GitHub repository (https://github.com/christinereina/roboger.git)
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
-* You can view this project live on GitHub Pages at this link: .
+* You can view this project live on GitHub Pages [here](https://christinereina.github.io/roboger/)
 
 ## Specifications
 
@@ -25,10 +25,6 @@
 | User enters "4" (above rules apply) |  4 | Beep!, Boop, Won't you be my neighbor?, 4, |
 
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
-
-| Behavior       | Input         | Output  |
-| ------------- |:-------------:| -----:|
-| User enters "13" and digits are replaced (all digits) with "beep, boop, won't you be my neighbor?,4,5,6...13" | 13 | Won't you be my neighbor?|
 
 ## Known Bugs
 
@@ -45,7 +41,7 @@ blacchoy@gmail.com
 * HTML
 * CSS
 * JavaScript
-* jQuery
+* jQuery 
 
 ### License
 
