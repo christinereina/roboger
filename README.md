@@ -47,9 +47,6 @@ blacchoy@gmail.com
 * JavaScript
 * jQuery
 
-## Images
-* <a href='https://www.freepik.com/free-photos-vectors/city'>City vector created by brgfx - www.freepik.com</a>
-
 ### License
 
 Licensed for usage under the MIT license.
