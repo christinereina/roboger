@@ -5,30 +5,36 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" href="./assets/xsm.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Mr. Roboger's Neighborhood</title>
   </head>
   <body>
     <div class="container">
-    <h2>Welcome to the neighborhood!</h2>
+      <h1>It’s a beautiful day in the neighborhood</h1>
       <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
+    <img src="./assets/welcome.png">
+    </div>
+    <div class="user">
+      <div class="col-md-7">
+        <h2>You said,</h2>
       <div class="well">
-  <h3>Enter a number to have a friendly chat with me!</h3>
-    <form id="form">
-        <label for="user"></label>
-        <input id="user" type="text">
-      </div>                             
-        <button class="btn btn-light" type="submit">Hello, there!</button>
+        <form id="form">
+        <input class="form-control form-control-lg" id="user" placeholder="Type a number(s) to speak with Mr. Roboger">
+      </div>                            
+        <button class="btn btn-danger" type="submit">Hello, there!</button>
+      </div>  
+    </div> 
     </form>
-  </div>
 <!-- end of form -->
-  <div class="row">
-  <div class="col-md-6">
-  <div class="well">
-    <div class="results"> </div>
-  </div>
-  <span id="button"><button class="btn btn-light" type="click">Again!</button></span></p>
-</div>
+<div class="rogers">
+  <div class="col-md-7">
+    <h2>"Mister Rogers Says...",</h2>
+    <div class="well">
+      <p><div id="results"></p></div>
+    </div>
+  <span id="button"><button class="btn btn-info" type="click">Again!</button></span></p>
 </div>
 <!-- end of results -->
 </div>

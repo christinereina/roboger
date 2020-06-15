@@ -1,7 +1,43 @@
 body {
-  background-image: url(/assets/8793.jpg);
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
+  font-size: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  box-shadow: black, 10px;
+}
+
+h2 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.col-md-8, .col-md-4 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.well {
+  background-color: white;
+  font-family: 'Roboto Slab', serif;
+  width: 600px
+}
+
+img {
+  float: right;
+  box-shadow: black, 10px;
+}
+
+.rogers {
+  display:none;
 }

@@ -4,7 +4,7 @@ function handleErrors(number) {
   const regex = /^[0-9]*$/
   const isValid = regex.test(number);
   if (!isValid) {
-      alert("Sorry I can only talk in numbers. Try again.");
+      alert("Mr. Roboger says, 'Sorry, I can only talk in numbers. Please, try again.'");
   }
   return number;
 }
@@ -38,7 +38,9 @@ $(document).ready(function() {
     const noErrors = handleErrors(userInput);  
     const robotOutput = robot(userInput);
     console.log(robotOutput);
-    $(".results").text(robotOutput);
+    $("#results").text(robotOutput);
+    $(".rogers").show();
+    $(".user").hide();
   });
 $('#button').click(function(){
   location.reload();
