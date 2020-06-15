@@ -30,10 +30,26 @@ h2 {
 .well {
   background-color: white;
   font-family: 'Roboto Slab', serif;
-  width: 600px
+  font-size: 40px;
+  width: 600px;
+  text-align: center;
 }
 
 
 .rogers {
   display:none;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.rogers {
+text-align: center;
+}
+
+.btn {
+  font-size: 20px;
 }
