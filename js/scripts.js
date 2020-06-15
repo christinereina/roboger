@@ -37,9 +37,10 @@ $(document).ready(function() {
     const userInput = $("input#user").val();
     const noErrors = handleErrors(userInput);  
     const robotOutput = robot(userInput);
-    console.log(robotOutput);
+    const name = $("input#name").val();
     $("#results").text(robotOutput);
     $(".rogers").show();
+    $("p.name").text(name);
     $(".user").hide();
   });
 $('#button').click(function(){

@@ -33,15 +33,7 @@ h2 {
   width: 600px
 }
 
-img {
-  float: right;
-  box-shadow: black, 10px;
-}
 
 .rogers {
   display:none;
-}
-
-.container {
-  color: white;
 }
