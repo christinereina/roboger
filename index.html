@@ -11,33 +11,38 @@
   </head>
   <body>
     <div class="container">
-      <h1>It’s a beautiful day in the neighborhood</h1>
-      <div class="row">
+    <h1>It’s a beautiful day in the neighborhood</h1>
+    <div class="row">
       <div class="col-md-5">
-    <img src="./assets/welcome.png">
+        <img src="./assets/welcome.png">
+      </div>
+      <div class="user">
+        <div class="col-md-7">
+          <h2>Welcome good neighbor!</h2>
+          <div class="well">
+          <input class="form-control form-control-lg" id="name" placeholder="Enter your name">
+          </div>
+          <h2>You said,</h2>
+          <div class="well">
+            <form id="form">
+              <input class="form-control form-control-lg" id="user" placeholder="Type a number(s) to speak with Mr. Roboger">
+          </div>
+          <button class="btn btn-danger" type="submit">Hello, there!</button>
+        </div>
+      </div>
+      </form>
+      <!-- end of form -->
+      <div class="rogers">
+        <div class="col-md-7">
+          <h2>"Mister Rogers Says...",</h2>
+          <div class="well">
+            <p>
+            <div id="results"></p></div>
+          </div>
+          <span id="button"><button class="btn btn-info" type="click">Again!</button></span></p>
+        </div>
+        <!-- end of results -->
+      </div>
     </div>
-    <div class="user">
-      <div class="col-md-7">
-        <h2>You said,</h2>
-      <div class="well">
-        <form id="form">
-        <input class="form-control form-control-lg" id="user" placeholder="Type a number(s) to speak with Mr. Roboger">
-      </div>                            
-        <button class="btn btn-danger" type="submit">Hello, there!</button>
-      </div>  
-    </div> 
-    </form>
-<!-- end of form -->
-<div class="rogers">
-  <div class="col-md-7">
-    <h2>"Mister Rogers Says...",</h2>
-    <div class="well">
-      <p><div id="results"></p></div>
-    </div>
-  <span id="button"><button class="btn btn-info" type="click">Again!</button></span></p>
-</div>
-<!-- end of results -->
-</div>
-</div>
   </body>
 </html>
